@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM --platform=linux/x86_64 python:3.10
 
 RUN python3 -m pip install milvus
 
